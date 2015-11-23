@@ -15,7 +15,7 @@ public class MyActivity extends Activity {
     private ListView listView;
     /*图片URL数组*/
     private List<ContentBean> contentBeans;
-
+    /*说说适配器*/
     private MyAdapter adapter;
 
     /**

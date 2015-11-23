@@ -58,7 +58,7 @@ public class ImageDetailFragment extends Fragment {
 		mAttacher.setOnLongClickListener(new View.OnLongClickListener() {
 			@Override
 			public boolean onLongClick(View view) {
-				Toast.makeText(getActivity().getApplicationContext(),"aa",Toast.LENGTH_SHORT).show();
+				Toast.makeText(getActivity().getApplicationContext(),"保存",Toast.LENGTH_SHORT).show();
 				return false;
 			}
 		});

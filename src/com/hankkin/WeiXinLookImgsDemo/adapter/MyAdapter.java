@@ -68,6 +68,9 @@ public class MyAdapter extends BaseAdapter {
             holder.gridView.setAdapter(new ImageGridAdapter(context, bean.getImgUrls()));
         }
 
+        /**
+         * 图片列表点击事件
+         */
         holder.gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
